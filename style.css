@@ -133,22 +133,30 @@ main{
     font-size: 13px;
 }
 
+
+.annual-plan a:hover{
+    text-decoration: none;
+}
+
 /* payment */
 
 .payment{
     margin-top: 1.5rem;
-    width: 85%;
+    width: 90%;
     height: 2.5rem;
     border: none;
     border-radius: 10px;
-    background-color: #766cf1;
-    color: #fff;
+    background-color: #3929e1;
+    color: hsl(225, 100%, 98%);
     cursor: pointer;
 
 }
 
+
+
 .payment:hover{
-     box-shadow: 0 5px 5px 5px rgba(214,209,255,255);
+    background-color: #766cf1;
+    box-shadow: 0 5px 5px 5px rgba(214,209,255,255);
 }   
 
 
@@ -158,9 +166,15 @@ main{
     font-size: 11px;
     padding-top: 1.2rem;
     text-decoration: none;
-    color: #000;
+    color: #808798;
     font-weight: 700;
 }
+
+.cancel:hover{
+    color: #000;
+}
+
+/* frontendmentor attribute */
 
 .attribution{
     font-size: 8px;
